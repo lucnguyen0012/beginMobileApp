@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_fisrt_app/model/user.dart';
 
 void main() {
-  runApp(const MyApp());
+  User user = User(1, 'luc');
+  user.func1();
+  // user.logAge();
+  // runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
